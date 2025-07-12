@@ -1,0 +1,20 @@
+{
+  "name": "nostarchpressfullstack",
+  "version": "1.0.0",
+  "description": "Examples from the No Starch press book, including the full application",
+  "homepage": "https://github.com/r0meroh/NoStarchPressFullStack#readme",
+  "bugs": {
+    "url": "https://github.com/r0meroh/NoStarchPressFullStack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0meroh/NoStarchPressFullStack.git"
+  },
+  "license": "ISC",
+  "author": "Hugo Romero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
