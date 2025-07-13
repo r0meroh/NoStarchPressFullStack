@@ -12,12 +12,14 @@
   },
   "license": "ISC",
   "author": "Hugo Romero",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "node-fetch: ": "^3.3.2"
+  },
+  "devDependencies": {}
 }
