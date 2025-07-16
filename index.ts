@@ -19,7 +19,7 @@ server.get("/api/names", async function (_req: Request, res: Response): Promise<
                 console.log(err);
             }
         }
-});
+);
 
 server.get("/api/weather/:zipcode", function (req: Request, res: Response): void {
     const response = routeWeather({ zipcode: req.params.zipcode });
