@@ -29,7 +29,7 @@ server.get("/api/weather/:zipcode", function (req: Request, res: Response): void
     }
 );
 
-server.get("/component/weather", function (req: Request, res: Response): void {
+server.get("/components/weather", function (req: Request, res: Response): void {
     const filePath = path.join(process.cwd(), "public", "weather.html");
     res.setHeader("Content-Type", "text/html");
     res.sendFile(filePath);

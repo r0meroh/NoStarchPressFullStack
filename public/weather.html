@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <title>Weather Component</title>
@@ -9,8 +9,9 @@
     </head>
     <body>
         <div id="root"></div>
-        <script type=""text/babel">
-        function app(){
+        <script type="text/babel">
+        // Renamed function to "App" (uppercase)
+        function App() {
             const WeatherComponent = (props) => {
                 const [count, setCount] = React.useState(0);
                 React.useEffect (() => {
@@ -24,11 +25,13 @@
                     </h1>
                 );
             };
-            return (<WeatherComponent weather="sunny" />);
+            // This is now a component, not just a function call
+            return <WeatherComponent weather="sunny" />;
         }
         
         const container = document.getElementById("root");
         const root = ReactDOM.createRoot(container);
+        // This now correctly calls the "App" component
         root.render(<App />);
         </script>
     </body>
